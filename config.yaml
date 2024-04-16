@@ -1,0 +1,4 @@
+loki_address: "http://localhost:8080"
+loki_websocket_address: "ws://localhost:8080"
+delay_for: 1
+poll_interval: 5
