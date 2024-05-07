@@ -8,11 +8,11 @@ https://grafana.com/docs/loki/latest/reference/api/#stream-logs
 
 ## Futures
 
-This program needs to be run at the same time as [zinrai/k8s-pod-log-generator](https://github.com/zinrai/k8s-loki-logline-verifier), as it calculates the difference between the start time of the k8s Pod and the difference that could be logged from Loki.
+This program needs to be run at the same time as [zinrai/k8s-pod-log-generator](https://github.com/zinrai/k8s-pod-log-generator), as it calculates the difference between the start time of the k8s Pod and the difference that could be logged from Loki.
 
 If you know of a better way to do this, please let me know.
 
-It would be nice if we could make it so that it can calculate the time it takes to get the logs from Loki even after the [zinrai/k8s-pod-log-generator](https://github.com/zinrai/k8s-loki-logline-verifier) has been executed.
+It would be nice if we could make it so that it can calculate the time it takes to get the logs from Loki even after the [zinrai/k8s-pod-log-generator](https://github.com/zinrai/k8s-pod-log-generator) has been executed.
 
 ## Motivation
 
